@@ -1,3 +1,5 @@
+https://www.theodinproject.com/lessons/foundations-intro-to-css
+
 <div></div>
 is a basic HTML element that is an empty container and you use other
 tags with it; <h1> <p> and etc.
@@ -20,3 +22,27 @@ Example: <div class="alert-text"> This is a test example.</div>
 
 ID Selectors
 Similar to class selectors. They select an element with the given ID, which is another attribute you place on an HTML element. The major difference between classes and IDs is that an element can only have one ID. It cannot be repeated on a single page and should not contain any whitespace:
+Example: <div id="title">My Awesome 90's Page</div>
+    - This specific ID would be referred to as #title {}
+    For IDs, instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don’t necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or having links redirect to a section on the current page, you should use IDs sparingly (if at all)
+
+Grouping of selectors
+To help cut down on repition where settings are the same between multiples
+Example:
+.alert-text,
+.read,
+.unread { details here }
+
+.read { unique details here }
+.unread { unique details here }
+
+Chaining selectors - Whitespace matters so a space between class selectors indicates a new selector
+<div>
+  <div class="subsection header">Latest Posts</div>
+  <p class="subsection preview">This is where a preview for a post might go.</p>
+</div>
+
+CSS would read to only apply to the Latest Posts "subsection header"
+.subsection.header {
+  color: red;
+}
