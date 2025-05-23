@@ -3,3 +3,8 @@ git log - shows history of git logs, pushes, commits, and more.
 git add * - adds everything from source folder down that has a change against items
 git commit - commits all adds in the "git status" to the repos and saves it.
 git push - publishes everything to the remote git repos on github
+
+
+
+How to access GitHub hosting of my site.
+https://callmetim101.github.io/odin-recipes/
