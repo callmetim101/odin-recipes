@@ -1,5 +1,12 @@
 /* styles.css */
 
+
+.github {
+    color:green;
+    background-color: grey;
+    text-decoration: none;
+}
+
 div {
   color: white;
   background-color: black;
