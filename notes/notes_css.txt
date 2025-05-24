@@ -46,3 +46,14 @@ CSS would read to only apply to the Latest Posts "subsection header"
 .subsection.header {
   color: red;
 }
+
+
+Order of precedents
+1: inline css
+2: style css
+3: linked css
+
+    Within CSS
+    1: ID Selectors
+    2: Class selectors
+    3: Type selectors
