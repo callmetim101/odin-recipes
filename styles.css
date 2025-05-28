@@ -16,7 +16,7 @@ div {
 }
 
 p {
-  color: red;
+  color: black;
 }
 
 .test-button {
@@ -33,4 +33,13 @@ p {
 
 .class1 {
     background-color: purple;
+    outline: 10px solid blue;
+}
+
+.class2 {
+    outline: 20px solid red;
+}
+
+.class3 {
+    outline: 10px solid green;
 }
